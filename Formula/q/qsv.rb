@@ -16,11 +16,11 @@ class Qsv < Formula
   end
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "3bf75c532354c53b74424011935624030b41091c24b4da9e77fd17e9b508135d"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:       "2ce5a1509f40fad062b79c9db6b94fdc3f2d81b166f1f62d44c7019da812ff47"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia:     "ffd73de3dd180b98ef28c763fe81409153f4d794763d17cc5df5fb22d8af19c6"
-    sha256 cellar: :any,                 arm64_linux:       "6ab2fae2531906920d0da898881f5cb2557580ba31369c6dfd582343db224ce2"
-    sha256 cellar: :any,                 x86_64_linux:      "a0430c16e4039951f71aaef3d5c31d4088893aed38899df84294786c608c4a53"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "2876c5066b3d5a1d18ff7111a851dafb2664b9e5e1087dd94679196718a50bfc"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:       "ce2fe6b792619e998c4338242af738a12d6a40e21eb1e56a8d3739f0add67dbd"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:     "e9265723c1716b3f08c0119f67bdf59b4f8575650e6efe3333c4ad3aed083a30"
+    sha256 cellar: :any,                 arm64_linux:       "276fa190f59b7e6c33b947b098d47d640fe2b677c25c9d3821f0bf7109515f34"
+    sha256 cellar: :any,                 x86_64_linux:      "a676efdf68940bc3484fce2a7c117e8a220dbbbc73f6a1649acc9c1300c1ee77"
   end
 
   depends_on "cmake" => :build # for libz-ng-sys
